@@ -7,7 +7,7 @@
     <meta name="keyword" content="Creative Agency, best quality" />
     <meta name="description" content="We are selling the best quality theme">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Afaq Technology  | شركة تطبيقات الهاتف المتحرك وتطوير الويب في الرياض المملكة العربية السعودية</title>
+    <title>Afaq Technology | شركة تطبيقات الهاتف المتحرك وتطوير الويب في الرياض المملكة العربية السعودية</title>
     <!-- Stylesheets -->
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css" media="all" /> -->
     <link rel="stylesheet" href="css/bootstrap-rtl.min.css" media="all" />
@@ -37,6 +37,7 @@
             src: url('fonts/Cairo-Regular.ttf');
             src: url('fonts/Cairo-SemiBold.ttf');
         }
+
         * {
             font-family: muathye, 'Courier New', Courier, monospace;
         }
@@ -44,6 +45,7 @@
     <style>
         a,
         .btn i,
+        .service-box i,
         .widget .latest-posts li span i,
         .tarikzsign {
             color: #0085a1;
@@ -52,14 +54,15 @@
         a:hover,
         .preloader .anim,
         .client-info h4,
-        #filters > li:hover,
+        #filters>li:hover,
         .theme-color {
             color: #23a7b9 !important;
         }
+
         .spacer,
         .widget h3::after,
-        .main-menu > ul > li > a:hover::before,
-        .main-menu > ul > li > a::before,
+        .main-menu>ul>li>a:hover::before,
+        .main-menu>ul>li>a::before,
         .spacer .dot {
             background-color: #23a7b9 !important;
         }
@@ -80,9 +83,11 @@
             letter-spacing: 0px !important;
         }
 
-        .welcome-text h1, .tarikzsign {
+        .welcome-text h1,
+        .tarikzsign {
             font-size: 60px;
         }
+
         .tarikzsign::after {
             content: "";
         }
@@ -91,50 +96,54 @@
         p.copy-right {
             text-align: center !important;
         }
+
         a, p, h1, h3, h4, h5, h6,
-        h1:hover, h3:hover, h4:hover, h5:hover, h6:hover,
-        .portfolio-column:hover .portfolio-content h4,
-        .portfolio-content p,
+        h1:hover, h3:hover,
+        h4:hover, h5:hover, h6:hover, .portfolio-column:hover .portfolio-content h4, .portfolio-content p,
         .widget .latest-posts li,
         .widget ul {
             text-align: right !important;
         }
+
         a, p, h1, h2, h3, h4, h5, h6,
-        h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover,
-        #filters,
-        .portfolio-column:hover .portfolio-content h4,
+        h1:hover, h2:hover,
+        h3:hover, h4:hover, h5:hover, h6:hover, #filters, .portfolio-column:hover .portfolio-content h4,
         .portfolio-content p,
         .widget .latest-posts li,
         .widget ul {
             direction: rtl !important;
         }
-        .main-menu > ul > li > a::before,
+
+        .main-menu>ul>li>a::before,
         .widget h3::after {
             right: 0 !important;
             left: auto !important;
         }
     </style>
     <style>
-    .slide.one {
-        background: url('assets/slider/slider-1.jpg');
-        background-size: cover;
-    }
-    .slide.two {
-        background: url('assets/slider/slider-2.jpg');
-        background-size: cover;
-    }
-    .slide.three {
-        background: url('assets/slider/slider-3.jpg');
-        background-size: cover;
-    }
-    .layer {
-        background-color: rgba(0, 0, 0, 0.5);
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
+        .slide.one {
+            background: url('assets/slider/slider-1.jpg');
+            background-size: cover;
+        }
+
+        .slide.two {
+            background: url('assets/slider/slider-2.jpg');
+            background-size: cover;
+        }
+
+        .slide.three {
+            background: url('assets/slider/slider-3.jpg');
+            background-size: cover;
+        }
+
+        .layer {
+            background-color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
     </style>
 </head>
 
@@ -191,7 +200,9 @@
         <section class="background-area">
             <div id="tarikzhero" class="owl-carousel owl-theme">
                 <div class="item">
-                    <div class="slide one"><div class="layer"></div></div>
+                    <div class="slide one">
+                        <div class="layer"></div>
+                    </div>
                     <div class="welcome-text">
                         <h1>حلول <span class="tarikzsign">مبتكرة</span></h1>
                         <p>نحن نفهم احتياجاتك ونعمل على تحقيق أهدافك عبر أفضل الحلول المبتكرة </p>
@@ -199,7 +210,9 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="slide two"><div class="layer"></div></div>
+                    <div class="slide two">
+                        <div class="layer"></div>
+                    </div>
                     <div class="welcome-text">
                         <h1>الثقة <span class="tarikzsign">والإحترافية</span></h1>
                         <p>نمتلك كوادر متخصصين من الخبراء الموهوبين والمحترفين لتحقيق فكرتك بمنتهى السهولة </p>
@@ -207,17 +220,93 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="slide three"><div class="layer"></div></div>
+                    <div class="slide three">
+                        <div class="layer"></div>
+                    </div>
                     <div class="welcome-text">
                         <h1>أفكار <span class="tarikzsign">فريدة وجذابة</span></h1>
-                        <p>نوفر لك كل التطبيقات والخدمات الإبداعية لتحقيق تواصل أكبر وإبداعية أكثر حيثما يحل الإلهام </p>
+                        <p>نوفر لك كل التطبيقات والخدمات الإبداعية لتحقيق تواصل أكبر وإبداعية أكثر حيثما يحل الإلهام
+                        </p>
                         <a class="btn btn-lg btn-light">استلهم أكثر <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Background Area ends -->
-        
+        <!-- Features Area -->
+        <section id="team" class="team-area">
+            <div class="container">
+                <div class="row">
+                    <div class="title-text" dir="rtl">
+                        <span class="number">مميزات العمل معنا</span>
+                        <h2><span class="theme-color">لماذا</span><br>آفاق تكنولوجي</h2>
+                        <div class="spacer" dir="ltr">
+                            <div class="line">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-content">
+                        <div class="col-md-12">
+                            <div class="row text-center" dir="rtl">
+                                <div class="col-md-2 title-text2">
+                                    <h2 class="text-center">
+                                        <span class="fa fa-star-o"></span>
+                                    </h2>
+                                    <div class="title-text2">
+                                        <p class="title-text">أفضل العروض والأسعار</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 title-text2">
+                                    <h2 class="text-center">
+                                        <span class="fa fa-star-o"></span>
+                                    </h2>
+                                    <div class="title-text2">
+                                        <p class="title-text">تصميمات متجاوبة</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 title-text2">
+                                    <h2 class="text-center">
+                                        <span class="fa fa-star-o"></span>
+                                    </h2>
+                                    <div class="title-text2">
+                                        <p class="title-text">حلول مبتكرة</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 title-text2">
+                                    <h2 class="text-center">
+                                        <span class="fa fa-star-o"></span>
+                                    </h2>
+                                    <div class="title-text2">
+                                        <p class="title-text">دعم فني متواصل</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 title-text2">
+                                    <h2 class="text-center">
+                                        <span class="fa fa-star-o"></span>
+                                    </h2>
+                                    <div class="title-text2">
+                                        <p class="title-text">أفكار فريدة وجذابة</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 title-text2">
+                                    <h2 class="text-center">
+                                        <span class="fa fa-star-o"></span>
+                                    </h2>
+                                    <div class="title-text2">
+                                        <p class="title-text">دقة واحترافية</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Features Area ends -->
+
         <!-- Portfolio Area -->
         <section id="portfolio" class="portfolio-area">
             <div class="container">
@@ -420,7 +509,8 @@
                     <div id="tarikztestimonial" class="owl-carousel owl-theme v2" data-slides="2">
                         <div class="testimonial-content">
                             <div class="client-info">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nemo adipisci eius quae consequuntur quis est harum recusandae facere commodi.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nemo adipisci eius
+                                    quae consequuntur quis est harum recusandae facere commodi.</p>
                                 <h4>perer jones</h4>
                                 <h5>Founder, Creatica</h5>
                                 <div class="client-img">
@@ -430,7 +520,8 @@
                         </div>
                         <div class="testimonial-content">
                             <div class="client-info">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nemo adipisci eius quae consequuntur quis est harum recusandae facere commodi.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nemo adipisci eius
+                                    quae consequuntur quis est harum recusandae facere commodi.</p>
                                 <h4>Perer Parker</h4>
                                 <h5>CEO, Softsense</h5>
                                 <div class="client-img">
@@ -440,7 +531,8 @@
                         </div>
                         <div class="testimonial-content">
                             <div class="client-info">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nemo adipisci eius quae consequuntur quis est harum recusandae facere commodi.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nemo adipisci eius
+                                    quae consequuntur quis est harum recusandae facere commodi.</p>
                                 <h4>Jesse jones</h4>
                                 <h5>Chairman, Gator Media</h5>
                                 <div class="client-img">
@@ -523,7 +615,8 @@
                                         <h3>Eco-friendly seaweed packaging</h3>
                                     </div>
                                     <div class="post-subtitle">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.</p>
                                     </div>
                                     <div class="read-more">
                                         <a href="blog-details.html">read more</a>
@@ -556,7 +649,8 @@
                                         <h3>Eco-friendly seaweed packaging</h3>
                                     </div>
                                     <div class="post-subtitle">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.</p>
                                     </div>
                                     <div class="read-more">
                                         <a href="blog-details.html">read more</a>
@@ -586,7 +680,8 @@
                             <div class="input-group">
                                 <input placeholder="Your Email" class="form-control" type="text">
                                 <span class="input-group-btn">
-                                    <button type="button" class="btn btn-subscribe"><i class="fa fa-envelope"></i></button>
+                                    <button type="button" class="btn btn-subscribe"><i
+                                            class="fa fa-envelope"></i></button>
                                 </span>
                             </div>
                         </div>
@@ -606,8 +701,8 @@
                                 <br> لا للبناء. 3 الوحدة 358 ، الغبرة
                                 <br> الرياض 12664، المملكة العربية السعودية
                                 <br> <a href="tel:966554112537">+966554112537</a>
-                                    <a href="tel:966 11 2299801"> +966 11 2299801</a>
-                                    <a href="tel:966 11 2292973">+966 11 2292973</a>
+                                <a href="tel:966 11 2299801"> +966 11 2299801</a>
+                                <a href="tel:966 11 2292973">+966 11 2292973</a>
                             </p>
                             <p>Email: info@afaqtech.net
                                 <br> www.afaqtech.net
@@ -619,15 +714,21 @@
                             <h3 class="upper">خدماتنا</h3>
                             <ul class="latest-posts">
                                 <li class="latest-post">
-                                    <a href="single-post.html"><h4>تعليم</h4></a>
+                                    <a href="single-post.html">
+                                        <h4>تعليم</h4>
+                                    </a>
                                     <span><i class="fa fa-building-o"></i> خدمات التعليم</span>
                                 </li>
                                 <li class="latest-post">
-                                    <a href="single-post.html"><h4>مستشفيات</h4></a>
+                                    <a href="single-post.html">
+                                        <h4>مستشفيات</h4>
+                                    </a>
                                     <span><i class="fa fa-building-o"></i> خدمات صحية</span>
                                 </li>
                                 <li class="latest-post">
-                                    <a href="single-post.html"><h4>بنوك</h4></a>
+                                    <a href="single-post.html">
+                                        <h4>بنوك</h4>
+                                    </a>
                                     <span><i class="fa fa-building-o"></i> خدمات بنكية</span>
                                 </li>
                             </ul>
@@ -638,15 +739,21 @@
                             <h3 class="upper"> &nbsp; </h3>
                             <ul class="latest-posts">
                                 <li class="latest-post">
-                                    <a href="single-post.html"><h4>عقار</h4></a>
+                                    <a href="single-post.html">
+                                        <h4>عقار</h4>
+                                    </a>
                                     <span><i class="fa fa-building-o"></i> خدمات عقارية</span>
                                 </li>
                                 <li class="latest-post">
-                                    <a href="single-post.html"><h4>مؤسسات</h4></a>
+                                    <a href="single-post.html">
+                                        <h4>مؤسسات</h4>
+                                    </a>
                                     <span><i class="fa fa-building-o"></i> خدمات مؤسسية</span>
                                 </li>
                                 <li class="latest-post">
-                                    <a href="single-post.html"><h4>تسويق</h4></a>
+                                    <a href="single-post.html">
+                                        <h4>تسويق</h4>
+                                    </a>
                                     <span><i class="fa fa-building-o"></i> خدمات تسويق إلكترونية</span>
                                 </li>
                             </ul>
@@ -662,7 +769,8 @@
                                         <div class="input-group">
                                             <input placeholder="Your Email" class="form-control" type="text">
                                             <span class="input-group-btn">
-                                                <button type="button" class="btn btn-subscribe"><i class="fa fa-envelope"></i></button>
+                                                <button type="button" class="btn btn-subscribe"><i
+                                                        class="fa fa-envelope"></i></button>
                                             </span>
                                         </div>
                                     </div>
@@ -680,7 +788,8 @@
                 </div>
             </div>
             <div class="footer-bottom" dir="rtl">
-                <p class="copy-right">جميع الحقوق محفوظة © 2011-2018 <span class="theme-color">Afaqtech</span> حقوق النشر</p>.
+                <p class="copy-right">جميع الحقوق محفوظة © 2011-2018 <span class="theme-color">Afaqtech</span> حقوق
+                    النشر</p>.
             </div>
         </footer>
         <!-- Footer Area Ends -->
